@@ -1,5 +1,6 @@
+# application.yml in config-repo
 spring:
-   datasource:
+  datasource:
     url: jdbc:mysql://localhost:3306/microservices_june_2024
     username: root
     password: root
@@ -18,6 +19,7 @@ spring:
   jackson:
     date-format: dd-MM-yyyy
     time-zone: UTC
+
 
 eureka:
   client:
